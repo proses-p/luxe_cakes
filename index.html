@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Dallifa Luxe offers elegant premium cakes for birthdays, weddings, graduations, gifts, desserts and more. Explore flavour options and order on WhatsApp."
+    />
+    <title>Dallifa Luxe Premium Cake Catalogue</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Cormorant+Garamond:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="#home" aria-label="Dallifa Luxe home">
+          <span class="brand-mark" aria-hidden="true">DL</span>
+          <span class="brand-wordmark">Dallifa Luxe</span>
+        </a>
+
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="primary-nav"
+          aria-label="Toggle navigation menu"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav id="primary-nav" class="site-nav" aria-label="Main navigation">
+          <a href="#home">Home</a>
+          <a href="#categories">Categories</a>
+          <a href="#catalogue">Our Cakes</a>
+          <a href="#contact">Contact</a>
+          <a
+            class="nav-cta"
+            href="https://wa.me/255769660790?text=Habari%20Dallifa%20Luxe%2C%20naomba%20keki%20ya%20muda%20wa%20siku%20hizi."
+            target="_blank"
+            rel="noopener noreferrer"
+            >Order on WhatsApp</a
+          >
+        </nav>
+      </div>
+    </header>
+
+    <main id="home">
+      <section class="hero section">
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <p class="eyebrow">Crafted for Your Special Moments</p>
+            <h1>Every Celebration Deserves Something Beautiful.</h1>
+            <p class="hero-text">
+              Discover beautifully crafted cakes, irresistible flavours, and sweet
+              creations made for your most memorable moments.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#catalogue">Explore Our Cakes</a>
+              <a
+                class="button button-secondary"
+                href="https://wa.me/255769660790?text=Habari%20Dallifa%20Luxe%2C%20ningependa%20kuagiza%20keki."
+                target="_blank"
+                rel="noopener noreferrer"
+                >Order on WhatsApp</a
+              >
+            </div>
+            <ul class="hero-metrics" aria-label="Brand highlights">
+              <li><strong>8</strong><span>Celebration categories</span></li>
+              <li><strong>10</strong><span>Classic flavours</span></li>
+              <li><strong>Custom</strong><span>Made-to-order designs</span></li>
+            </ul>
+          </div>
+
+          <div class="hero-visual reveal">
+            <div class="visual-card">
+              <img
+                src="https://images.unsplash.com/photo-1558301211-0d8c8ddee6ec?auto=format&fit=crop&w=1200&q=80"
+                alt="Elegant tiered celebration cake with floral details"
+                loading="eager"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section intro-section">
+        <div class="container intro-wrap reveal">
+          <p>
+            At Dallifa Luxe, we believe every celebration deserves a cake that feels
+            special. Explore beautiful cake designs, discover your favourite
+            flavours, and get in touch to discuss a creation for your next memorable
+            moment.
+          </p>
+        </div>
+      </section>
+
+      <section id="categories" class="section catalog-section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Cake Categories</p>
+            <h2>Choose the mood of your moment</h2>
+          </div>
+          <div id="categoryGrid" class="category-grid" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <section id="catalogue" class="section selection-section">
+        <div class="container">
+          <div class="selection-header reveal">
+            <div>
+              <p class="eyebrow">Selected category</p>
+              <h2 id="selectedCategoryTitle">All Cakes</h2>
+            </div>
+            <button id="showAllBtn" class="button button-ghost" type="button">
+              View all cakes
+            </button>
+          </div>
+
+          <div id="categoryIntro" class="category-intro reveal" aria-live="polite"></div>
+
+          <div class="flavour-panel reveal">
+            <div class="flavour-header">
+              <h3>Explore our flavours</h3>
+              <span>Choose a flavour group, then select or order a favourite</span>
+            </div>
+            <div id="flavourGroups" class="flavour-groups" role="group" aria-label="Flavor groups"></div>
+            <div id="flavourCards" class="flavour-grid" aria-live="polite"></div>
+          </div>
+
+          <div id="productGrid" class="product-grid" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <section class="section custom-order-section">
+        <div class="container custom-order reveal">
+          <div>
+            <p class="eyebrow">Custom cakes</p>
+            <h2>Dream It. Design It. Let Us Make It Sweet.</h2>
+            <p>
+              Tell us about your event colours, design style, favourite flavours, and
+              size ideas. We can create a custom celebration cake that feels unique to
+              you.
+            </p>
+          </div>
+          <a
+            class="button button-primary"
+            href="https://wa.me/255769660790?text=Habari%20Dallifa%20Luxe%2C%20naomba%20kushirikiana%20na%20keki%20ya%20muhimu%20ya%20tehema%20yangu.%20Ningependa%20kujadili%20rangi%2C%20ubunifu%2C%20na%20ukubwa."
+            target="_blank"
+            rel="noopener noreferrer"
+            >Discuss Your Custom Cake</a
+          >
+        </div>
+      </section>
+
+      <section id="about" class="section about-section">
+        <div class="container about-grid reveal">
+          <div class="about-visual">
+            <img
+              src="https://images.unsplash.com/photo-1517433670267-08bbd4be890f?auto=format&fit=crop&w=900&q=80"
+              alt="Soft pastel cake for a celebration"
+              loading="lazy"
+            />
+          </div>
+          <div class="about-copy">
+            <p class="eyebrow">About Dallifa Luxe</p>
+            <h2>Made for joyful moments and beautifully shared memories.</h2>
+            <p>
+              Dallifa Luxe brings together premium cake artistry, warm celebration
+              energy, and flavour experiences designed to make each occasion feel a
+              little more special. Explore our collection and reach out for a custom
+              design that matches your story.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section faq-section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">FAQ</p>
+            <h2>Questions we get often</h2>
+          </div>
+          <div class="faq-list reveal">
+            <div class="faq-item">
+              <button class="faq-question" type="button" aria-expanded="false">
+                Are the prices sample prices only?
+              </button>
+              <div class="faq-answer">
+                <p>
+                  Yes. Prices are sample estimates and may vary based on cake size,
+                  flavour, and decoration details. Please confirm with WhatsApp before
+                  finalising your order.
+                </p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-question" type="button" aria-expanded="false">
+                Can I order a cake that is not in the catalogue?
+              </button>
+              <div class="faq-answer">
+                <p>
+                  Absolutely. We also create custom cakes for unique themes, colour
+                  palettes, and celebration ideas.
+                </p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-question" type="button" aria-expanded="false">
+                Can I choose my flavour first?
+              </button>
+              <div class="faq-answer">
+                <p>
+                  Yes. You can browse the catalogue and choose a flavour from our classic
+                  selection before placing an order enquiry on WhatsApp.
+                </p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-question" type="button" aria-expanded="false">
+                Do I need to create an account to enquire?
+              </button>
+              <div class="faq-answer">
+                <p>No. The ordering journey is simple and direct through WhatsApp.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact-section">
+        <div class="container contact-panel reveal">
+          <div>
+            <p class="eyebrow">Contact & ordering</p>
+            <h2>Let’s create your next beautiful celebration.</h2>
+            <p>
+              Reach out on WhatsApp for product enquiries, custom cake requests, and
+              flavour discussions.
+            </p>
+          </div>
+          <div class="contact-actions">
+            <a
+              class="button button-primary"
+              href="https://wa.me/255769660790?text=Habari%20Dallifa%20Luxe%2C%20ningependa%20kuagiza%20keki."
+              target="_blank"
+              rel="noopener noreferrer"
+              >Order on WhatsApp</a
+            >
+            <a
+              class="button button-secondary"
+              href="https://wa.me/255769660790?text=Habari%20Dallifa%20Luxe%2C%20naomba%20msaada%20kuhusu%20keki%20zenu."
+              target="_blank"
+              rel="noopener noreferrer"
+              >WhatsApp Support</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div>
+          <a class="brand footer-brand" href="#home">
+            <span class="brand-mark" aria-hidden="true">DL</span>
+            <span class="brand-wordmark">Dallifa Luxe</span>
+          </a>
+          <p>Beautiful cakes for life’s sweetest moments.</p>
+        </div>
+
+        <div class="footer-links">
+          <a href="#home">Home</a>
+          <a href="#categories">Categories</a>
+          <a href="#catalogue">Our Cakes</a>
+          <a href="#contact">Contact</a>
+        </div>
+
+        <div class="footer-meta">
+          <a
+            href="https://wa.me/255769660790?text=Habari%20Dallifa%20Luxe%2C%20naomba%20kuagiza%20keki."
+            target="_blank"
+            rel="noopener noreferrer"
+            >WhatsApp orders</a
+          >
+          <a
+            href="https://wa.me/255769660790?text=Habari%20Dallifa%20Luxe%2C%20naomba%20msaada%20kuhusu%20keki%20zenu."
+            target="_blank"
+            rel="noopener noreferrer"
+            >Support</a
+          >
+          <p>© <span id="year"></span> Dallifa Luxe</p>
+          <small>Bei zinaweza kutofautiana kulingana na ukubwa, flavour na mapambo. Tafadhali thibitisha bei kupitia WhatsApp.</small>
+        </div>
+      </div>
+    </footer>
+
+    <div id="productModal" class="modal" aria-hidden="true">
+      <div class="modal-backdrop" data-close-modal="true"></div>
+      <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+        <button class="modal-close" type="button" aria-label="Close product details">
+          ×
+        </button>
+        <div class="modal-content" id="modalContent"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
