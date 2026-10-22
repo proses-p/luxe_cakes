@@ -6,14 +6,14 @@ const categories = [
     key: "birthday",
     name: "Birthday Cakes",
     intro: "Celebrate special birthdays with a cake that feels joyful, personal, and truly picture-worthy.",
-    image: "https://images.unsplash.com/photo-1535141192574-5d4897c12636?auto=format&fit=crop&w=900&q=80",
+    image: "https://i.pinimg.com/736x/40/ad/7f/40ad7fe003fefa4d45daa27d5e95c5a4.jpg",
     description: "Colourful, elegant, and playful cakes for unforgettable birthday moments."
   },
   {
     key: "wedding",
     name: "Wedding Cakes",
     intro: "Romantic and refined cakes designed for saying forever in style and sweetness.",
-    image: "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?auto=format&fit=crop&w=900&q=80",
+    image: "https://i.pinimg.com/736x/18/58/4e/18584e39676266ac93d65590e922106f.jpg",
     description: "Classic and modern wedding cakes with a luxurious, soft aesthetic."
   },
   {
