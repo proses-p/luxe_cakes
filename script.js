@@ -1,4 +1,4 @@
-const WHATSAPP_NUMBER = "255769660790";
+const WHATSAPP_NUMBER = "255767066380";
 const CATEGORY_DEFAULT = "all";
 
 const categories = [
@@ -56,6 +56,14 @@ const categories = [
     name: "Muffins",
     intro: "Simple favourites with comforting flavours and a lovely everyday charm.",
     image: "https://i.pinimg.com/1200x/06/11/9d/06119d9c096f0ff6ff8305998695fc50.jpg",
+    description: "Fresh, flavourful muffins for brunches, gifting, and quick sweet treats."
+  },
+
+  {
+    key: "Kids cartoon cake",
+    name: "Kids cartoon cake",
+    intro: "Simple favourites with comforting flavours and a lovely everyday charm.",
+    image: "https://i.pinimg.com/736x/2b/d7/c7/2bd7c7e258f978f25df05936367abddc.jpg",
     description: "Fresh, flavourful muffins for brunches, gifting, and quick sweet treats."
   }
 ];
