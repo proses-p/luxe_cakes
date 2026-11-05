@@ -6,7 +6,11 @@ const categoryData = {
       { url: "https://i.pinimg.com/1200x/fa/15/5c/fa155ca3e251211fe8f4c711ccb8e68d.jpg", caption: "Rose Gold Celebration Cake" },
       { url: "https://i.pinimg.com/736x/95/1b/d7/951bd70772cd97196a73a57a14908788.jpg", caption: "Candy Pop Birthday Cake" },
       { url: "https://i.pinimg.com/736x/bd/48/73/bd4873d03296b7fa34d5e2c5e9b33326.jpg", caption: "Number 30 Birthday Cake" },
-      { url: "https://i.pinimg.com/1200x/b3/28/e7/b328e7db3331038ad078a01d7762d35a.jpg", caption: "Mini Rose Birthday Cake" }
+      { url: "https://i.pinimg.com/1200x/b3/28/e7/b328e7db3331038ad078a01d7762d35a.jpg", caption: "Mini Rose Birthday Cake" },
+      { url: "https://i.pinimg.com/736x/7a/70/65/7a7065f8d51639d1e5f6d514504d9d7b.jpg", caption: "Pink Birthday Cake" },
+      { url: "https://i.pinimg.com/736x/af/fb/8c/affb8c71c787b874e896c4504ea50442.jpg", caption: "Special Birthday Cake Magic" },
+
+
     ]
   },
   "wedding": {
@@ -68,6 +72,16 @@ const categoryData = {
       { url: "https://i.pinimg.com/736x/70/6b/2a/706b2ac8adecef9dbd9027c98c3c43e3.jpg", caption: "Vanilla Muffins" },
       { url: "https://i.pinimg.com/1200x/c2/e8/db/c2e8dbb9f292b726c449b3b71e6027ee.jpg", caption: "Blueberry Muffins" },
       { url: "https://i.pinimg.com/736x/13/f0/c2/13f0c2ae7e765b08afe2713d69a0481a.jpg", caption: "Banana Muffins" }
+    ]
+  },
+
+  "kids": {
+    title: "Kids Cartoon Cakes",
+    images: [
+      { url: "https://i.pinimg.com/736x/a0/35/6e/a0356e3493f0d5d8ce276baced88545e.jpg" },
+      { url: "https://i.pinimg.com/1200x/23/7b/3b/237b3bf5fd868cbbca77a47b064c0de5.jpg" },
+      { url: "https://i.pinimg.com/736x/5c/fa/8b/5cfa8b7ebef1d054bbe9abfc4f49cb7d.jpg" },
+      { url: "https://i.pinimg.com/1200x/de/a0/02/dea0029419933319704d696c884f588b.jpg" }
     ]
   }
 };
