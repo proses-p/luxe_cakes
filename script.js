@@ -1,3 +1,148 @@
+// --- CATEGORY GALLERY DATA ---
+const categoryData = {
+  "birthday": {
+    title: "Birthday Cakes",
+    images: [
+      { url: "https://i.pinimg.com/1200x/fa/15/5c/fa155ca3e251211fe8f4c711ccb8e68d.jpg", caption: "Rose Gold Celebration Cake" },
+      { url: "https://i.pinimg.com/736x/95/1b/d7/951bd70772cd97196a73a57a14908788.jpg", caption: "Candy Pop Birthday Cake" },
+      { url: "https://i.pinimg.com/736x/bd/48/73/bd4873d03296b7fa34d5e2c5e9b33326.jpg", caption: "Number 30 Birthday Cake" },
+      { url: "https://i.pinimg.com/1200x/b3/28/e7/b328e7db3331038ad078a01d7762d35a.jpg", caption: "Mini Rose Birthday Cake" }
+    ]
+  },
+  "wedding": {
+    title: "Wedding Cakes",
+    images: [
+      { url: "https://i.pinimg.com/1200x/fb/1a/e9/fb1ae9931907512f3cf82477abe4fd39.jpg", caption: "Blush Romance Cake" },
+      { url: "https://i.pinimg.com/1200x/de/75/e9/de75e9e84756826bc6d5607ec0c61a57.jpg", caption: "Sage & Gold Wedding Cake" },
+      { url: "https://i.pinimg.com/1200x/c3/78/c0/c378c07a63506a097a7a7463196b8255.jpg", caption: "Minimalist White Wedding Cake" }
+    ]
+  },
+  "sendoff": {
+    title: "Sendoff Cakes",
+    images: [
+      { url: "https://i.pinimg.com/1200x/65/48/b2/6548b2b24e5bb53abf099b7520371192.jpg", caption: "Sunrise Sendoff Cake" },
+      { url: "https://i.pinimg.com/1200x/5b/a4/67/5ba467886c00878db0780f78f1896050.jpg", caption: "Travel Farewell Cake" },
+      { url: "https://i.pinimg.com/736x/56/ab/0f/56ab0f411d272560a1a066f88e33c8a0.jpg", caption: "Workplace Farewell Cake" },
+      { url: "https://i.pinimg.com/1200x/59/a2/7c/59a27c9e05ec36128c698b6e6bbd8620.jpg", caption: "Heartfelt Goodbye Cake" }
+    ]
+  },
+  "kitchen-party": {
+    title: "Kitchen Party Cakes",
+    images: [
+      { url: "https://i.pinimg.com/1200x/3c/d8/cf/3cd8cfccebe04ca34312b902333d7d99.jpg", caption: "Blush Floral Cake" },
+      { url: "https://i.pinimg.com/1200x/5e/b4/5e/5eb45eefa9c6b1ae04477eb1a9c08c3e.jpg", caption: "Bridal Shower Cake" },
+      { url: "https://i.pinimg.com/1200x/1a/bd/86/1abd86a7b28837b5e73bca48ad2b4143.jpg", caption: "Coral Celebration Cake" },
+      { url: "https://i.pinimg.com/1200x/96/25/bb/9625bb2576e32e314d3ee60dd752206c.jpg", caption: "Cream Lily Cake" }
+    ]
+  },
+  "graduation": {
+    title: "Graduation Cakes",
+    images: [
+      { url: "https://i.pinimg.com/1200x/06/d4/59/06d459e414d242ef6697df3141c9605e.jpg", caption: "Graduation Cap Cake" },
+      { url: "https://i.pinimg.com/1200x/8f/11/41/8f114133f0d3c09fdfd9827c7d779765.jpg", caption: "Diploma Delight Cake" },
+      { url: "https://i.pinimg.com/1200x/de/c1/40/dec140f3b973070e3e4d8c501a6562ce.jpg", caption: "University Blue Cake" },
+      { url: "https://i.pinimg.com/736x/44/88/1e/44881e3a596d22df4f75b6e846ae8093.jpg", caption: "Gold Crest Cake" }
+    ]
+  },
+  "desserts": {
+    title: "Desserts",
+    images: [
+      { url: "https://i.pinimg.com/736x/da/df/c4/dadfc451f6cc0f59ce2a270d0166505d.jpg", caption: "Brownie Bites" },
+      { url: "https://i.pinimg.com/736x/03/b6/55/03b655ac2ac62ec02c8fd615114f60d0.jpg", caption: "Berry Dessert Cup" },
+      { url: "https://i.pinimg.com/1200x/f3/c0/5e/f3c05e22208e0246cdbee04bf4ec6ee1.jpg", caption: "Mini Dessert Assortment" }
+    ]
+  },
+  "gift-cakes": {
+    title: "Gift Cakes",
+    images: [
+      { url: "https://i.pinimg.com/736x/3f/de/db/3fdedb611918443d4707bf46ece473c4.jpg", caption: "Heart Gift Cake" },
+      { url: "https://i.pinimg.com/1200x/36/79/c2/3679c27ddebe949dc573e75d0b5f4aca.jpg", caption: "Personalised Message Cake" },
+      { url: "https://i.pinimg.com/1200x/73/64/59/7364593c6ed53e3ba4e230d9759122a1.jpg", caption: "Mini Romantic Cake" },
+      { url: "https://i.pinimg.com/736x/41/ef/36/41ef36c8533391b8ceb708e6393ab12a.jpg", caption: "Gift Box Cake Set" }
+    ]
+  },
+  "muffins": {
+    title: "Muffins",
+    images: [
+      { url: "https://i.pinimg.com/736x/d2/9d/4c/d29d4cae5e92173d81ae32a8e6bf8a3d.jpg", caption: "Chocolate Muffins" },
+      { url: "https://i.pinimg.com/736x/70/6b/2a/706b2ac8adecef9dbd9027c98c3c43e3.jpg", caption: "Vanilla Muffins" },
+      { url: "https://i.pinimg.com/1200x/c2/e8/db/c2e8dbb9f292b726c449b3b71e6027ee.jpg", caption: "Blueberry Muffins" },
+      { url: "https://i.pinimg.com/736x/13/f0/c2/13f0c2ae7e765b08afe2713d69a0481a.jpg", caption: "Banana Muffins" }
+    ]
+  }
+};
+
+// --- CATEGORY GALLERY MODAL LOGIC ---
+const categoryGalleryModal = document.getElementById("categoryGalleryModal");
+const galleryGrid = document.getElementById("galleryGrid");
+const galleryModalTitle = document.getElementById("galleryModalTitle");
+
+function openCategoryGalleryModal(categoryKey) {
+  const data = categoryData[categoryKey];
+  if (!data) return;
+  galleryModalTitle.textContent = data.title;
+  galleryGrid.innerHTML = "";
+  data.images.forEach(img => {
+    const card = document.createElement("div");
+    card.className = "gallery-image-card";
+    const image = document.createElement("img");
+    image.src = img.url;
+    image.alt = img.caption;
+    const caption = document.createElement("div");
+    caption.className = "gallery-image-caption";
+    caption.textContent = img.caption;
+    card.appendChild(image);
+    card.appendChild(caption);
+    galleryGrid.appendChild(card);
+  });
+  categoryGalleryModal.classList.add("open");
+  categoryGalleryModal.setAttribute("aria-hidden", "false");
+  document.body.style.overflow = "hidden";
+}
+
+function closeCategoryGalleryModal() {
+  categoryGalleryModal.classList.remove("open");
+  categoryGalleryModal.setAttribute("aria-hidden", "true");
+  document.body.style.overflow = "";
+}
+
+// Modal close triggers
+categoryGalleryModal.addEventListener("click", (e) => {
+  if (
+    e.target.classList.contains("modal-backdrop") ||
+    e.target.classList.contains("modal-close")
+  ) {
+    closeCategoryGalleryModal();
+  }
+});
+document.addEventListener("keydown", (e) => {
+  if (
+    categoryGalleryModal.classList.contains("open") &&
+    (e.key === "Escape" || e.key === "Esc")
+  ) {
+    closeCategoryGalleryModal();
+  }
+});
+
+// Attach modal trigger to category cards after rendering
+function attachCategoryGalleryTriggers() {
+  if (!categoryGrid) return;
+  Array.from(categoryGrid.children).forEach((card, idx) => {
+    const cat = categories[idx];
+    if (!cat) return;
+    card.addEventListener("click", (e) => {
+      e.preventDefault();
+      openCategoryGalleryModal(cat.key);
+    });
+  });
+}
+
+// Patch renderCategories to attach modal triggers
+const origRenderCategories = renderCategories;
+renderCategories = function() {
+  origRenderCategories.apply(this, arguments);
+  attachCategoryGalleryTriggers();
+};
 const WHATSAPP_NUMBER = "255767066380";
 const CATEGORY_DEFAULT = "all";
 
